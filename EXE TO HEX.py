@@ -18,8 +18,8 @@ def escrever_hexadecimal_em_arquivo(dados_binarios, caminho_saida):
             arquivo_saida.write(linha)
 
 def main():
-    caminho_arquivo = r'C:\Program Files (x86)\Rockstar Games\Social Club\SocialClubHelper.exe'
-    caminho_saida = r'C:\Users\maest\OneDrive\Área de Trabalho\KEK\social_hex.txt'
+    caminho_arquivo = r'caminho de entrada'
+    caminho_saida = r'saída'
     dados_binarios = ler_exe_como_binario(caminho_arquivo)
     if dados_binarios:
         escrever_hexadecimal_em_arquivo(dados_binarios, caminho_saida)
